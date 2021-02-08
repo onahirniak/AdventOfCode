@@ -5,7 +5,7 @@ import (
 	"testing"
 )
 
-func TestShouldPassWithExampleInput(t *testing.T){
+func TestShouldPassWithExampleFromPlatformInput(t *testing.T){
 	breaker := breaker.ComboBreaker{MOD: 20201227, MAX_LOOP_COUNT: 20201227}
 	
 	var privateKey, _ = breaker.Decrypt(7, 5764801, 17807724)
@@ -17,7 +17,7 @@ func TestShouldPassWithExampleInput(t *testing.T){
 	}
 }
 
-func TestShouldPassWithGivenInput(t *testing.T){
+func TestShouldPassWithGivenByPlatformInput(t *testing.T){
 	breaker := breaker.ComboBreaker{MOD: 20201227, MAX_LOOP_COUNT: 20201227}
 	
 	door_private_key, _ := breaker.Decrypt(7, 2069194, 16426071)
