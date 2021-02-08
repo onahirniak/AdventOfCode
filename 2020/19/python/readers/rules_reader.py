@@ -1,5 +1,9 @@
 class RulesReader:
 
+    '''
+    The function reads the data with rules and convert each line to following schema:
+    1: 2 3 | 4 4 -> { '1': [('2','3'), ('4','4')] }
+    '''
     def read_rules(self, filename):
         rules = []
 
