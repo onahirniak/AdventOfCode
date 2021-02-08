@@ -1,0 +1,9 @@
+class MessageReader:
+
+    def read_messages(self, filename):
+        messages = set()
+
+        with open(filename) as f:
+            messages = set([m.rstrip('\n').strip(' ') for m in f.readlines()])
+        
+        return messages
