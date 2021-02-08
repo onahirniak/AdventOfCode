@@ -9,7 +9,7 @@ Output:
 encryption key (private key): 14897079
 
 The input has confused me because I expected that the subject number will be provided there. 
-So, I decided that I need to generate the subject number on my own. Code became very complex I decided that it was the wrong direction.
+So, I decided that I need to generate the subject number on my own. The first version of code became very complex I decided that it was the wrong direction.
 I reviewed the problem statement one more time and explored that there were additional data that can help me:
 
 Subject number: 7
